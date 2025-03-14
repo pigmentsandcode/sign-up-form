@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <div class="image-sidebar">
+      <div class="logo-section">
+        <img
+          src="./images/odin-lined.png"
+          alt="line art of The Odin Project's logo of a norse god odin"
+        />
+        <h2>ODIN</h2>
+      </div>
+      <div class="sidebar-footer">
+        <p>
+          Photo by
+          <a
+            href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Halie West</a
+          >
+          on
+          <a
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Unsplash</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="form-side">
+      <div class="paragraphs">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+          dolorem fuga, assumenda velit deserunt id. Id dolor autem dolore porro
+          vel quo voluptatum repellat aspernatur. Fugiat, iure adipisci.
+          Reiciendis, illo?
+        </p>
+        <p>Smaller paragraph of text.</p>
+      </div>
+      <div class="form-section">
+        <div class="form-header">Let's do this!</div>
+        <form action="" id="create-acct-form">
+          <section class="names">
+            <label for="first-name">First name: </label>
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              class="text-input"
+            />
+            <label for="last-name">Last name: </label>
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              class="text-input"
+            />
+          </section>
+          <section class="contact-info">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="text-input" />
+            <label for="telephone">Telephone number</label>
+            <input
+              type="tel"
+              name="telephone"
+              id="telephone"
+              class="text-input"
+            />
+          </section>
+          <section class="pass-section">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="text-input pass-input"
+            />
+            <label for="confirm-password">Confirm password</label>
+            <input
+              type="password"
+              name="confirm-pass"
+              id="confirm-password"
+              class="text-input pass-input"
+            />
+          </section>
+        </form>
+      </div>
+      <div class="btn-section">
+        <button class="signup-btn" form="create-acct-form">
+          Create Account
+        </button>
+      </div>
+      <p>Already have account? <a>Login</a></p>
+    </div>
+  </body>
+</html>
