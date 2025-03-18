@@ -39,53 +39,67 @@
           vel quo voluptatum repellat aspernatur. Fugiat, iure adipisci.
           Reiciendis, illo?
         </p>
-        <p>Smaller paragraph of text.</p>
+        <p>You <em>know</em> you want to.</p>
       </div>
       <div class="form-section">
         <div class="form-header">Let's do this!</div>
         <form action="" id="create-acct-form">
           <section class="names">
-            <label for="first-name">First name: </label>
-            <input
-              type="text"
-              id="first-name"
-              name="first-name"
-              class="text-input"
-            />
-            <label for="last-name">Last name: </label>
-            <input
-              type="text"
-              id="last-name"
-              name="last-name"
-              class="text-input"
-            />
+            <div class="first-name form-input-div">
+              <label for="first-name">FIRST NAME</label>
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                class="text-input"
+              />
+            </div>
+            <div class="last-name form-input-div">
+              <label for="last-name">LAST NAME</label>
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                class="text-input"
+              />
+            </div>
           </section>
           <section class="contact-info">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" class="text-input" />
-            <label for="telephone">Telephone number</label>
-            <input
-              type="tel"
-              name="telephone"
-              id="telephone"
-              class="text-input"
-            />
+            <div class="email form-input-div">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" class="text-input" />
+            </div>
+            <div class="telephone form-input-div">
+              <label for="telephone">TELEPHONE NUMBER</label>
+              <input
+                type="tel"
+                name="telephone"
+                id="telephone"
+                class="text-input"
+              />
+            </div>
           </section>
           <section class="pass-section">
-            <label for="password">Password</label>
-            <input
-              type="password"
-              name="password"
-              id="password"
-              class="text-input pass-input"
-            />
-            <label for="confirm-password">Confirm password</label>
-            <input
-              type="password"
-              name="confirm-pass"
-              id="confirm-password"
-              class="text-input pass-input"
-            />
+            <div class="password form-input-div">
+              <label for="password">PASSWORD</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="text-input pass-input"
+                required
+              />
+            </div>
+            <div class="confirm-pass form-input-div">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                name="confirm-pass"
+                id="confirm-password"
+                class="text-input pass-input"
+                required
+              />
+            </div>
           </section>
         </form>
       </div>
@@ -94,7 +108,9 @@
           Create Account
         </button>
       </div>
-      <p>Already have account? <a>Login</a></p>
+      <div class="exist-acct">
+        <p>Already have account? <a>Login</a></p>
+      </div>
     </div>
   </body>
 </html>
